@@ -61,7 +61,7 @@
     padding: 0 20px;
     margin: 0 8px;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 20px;
     color: var(--light);
     text-decoration: none;
     border-bottom: 3px solid var(--light);
@@ -94,6 +94,7 @@
     justify-content: space-evenly;
   }
   
+
   .card {
     border-style: solid;
     border-width: 30px;
@@ -105,6 +106,8 @@
     margin: 20px;
   }
   
+
+
   .card > header {
     color: white;
     background-color: black;
@@ -135,7 +138,22 @@
     margin-bottom: auto;
     padding-left: 20px;
   }
-  
+
+
+  footer nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 300px;
+    min-width: 100px;
+  }
+
+  footer a:hover {
+    background: #07aaeb;
+    color: var(--light);
+    border-bottom: 30px solid rgba(20, 23, 35, 0.5);
+    border-radius: 20px;
+    text-shadow: none;
+
   @media screen and (max-width: 1080px) {
     .hero {
       padding-top: 190px;
